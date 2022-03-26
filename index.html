@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./scss/main.css" />
+    <script src="./index.js" defer></script>
+    <title>Time tracking dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="dash">
+        <div class="dash__user">
+          <div class="user-section">
+            <img src="./images/image-jeremy.png" alt="" class="user-image" />
+            <div class="user-name">
+              <p>Report for</p>
+              <p>Jack Paget</p>
+            </div>
+          </div>
+          <div class="time-select">
+            <button id="daily-button">Daily</button>
+            <button id="weekly-button">Weekly</button>
+            <button id="monthly-button">Monthly</button>
+          </div>
+        </div>
+        <div class="dash-card work">
+          <div class="dash-card__banner">
+            <img src="./images/icon-work.svg" alt="" />
+          </div>
+          <div class="dash-card__content">
+            <div class="card-title">
+              <p id="card-title-text">Work</p>
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </div>
+            <div class="card-hours">
+              <p id="hours-display">32hrs</p>
+              <p id="hours-display-previous">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="dash-card play">
+          <div class="dash-card__banner">
+            <img src="./images/icon-play.svg" alt="" />
+          </div>
+          <div class="dash-card__content">
+            <div class="card-title">
+              <p id="card-title-text">Play</p>
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </div>
+            <div class="card-hours">
+              <p id="hours-display">32hrs</p>
+              <p id="hours-display-previous">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="dash-card study">
+          <div class="dash-card__banner">
+            <img src="./images/icon-study.svg" alt="" />
+          </div>
+          <div class="dash-card__content">
+            <div class="card-title">
+              <p id="card-title-text">Study</p>
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </div>
+            <div class="card-hours">
+              <p id="hours-display">32hrs</p>
+              <p id="hours-display-previous">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="dash-card exercise">
+          <div class="dash-card__banner">
+            <img src="./images/icon-exercise.svg" alt="" />
+          </div>
+          <div class="dash-card__content">
+            <div class="card-title">
+              <p id="card-title-text">Exercise</p>
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </div>
+            <div class="card-hours">
+              <p id="hours-display">32hrs</p>
+              <p id="hours-display-previous">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="dash-card social">
+          <div class="dash-card__banner">
+            <img src="./images/icon-social.svg" alt="" />
+          </div>
+          <div class="dash-card__content">
+            <div class="card-title">
+              <p id="card-title-text">Social</p>
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </div>
+            <div class="card-hours">
+              <p id="hours-display">32hrs</p>
+              <p id="hours-display-previous">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="dash-card self-care">
+          <div class="dash-card__banner">
+            <img src="./images/icon-self-care.svg" alt="" />
+          </div>
+          <div class="dash-card__content">
+            <div class="card-title">
+              <p id="card-title-text">Self Care</p>
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </div>
+            <div class="card-hours">
+              <p id="hours-display">32hrs</p>
+              <p id="hours-display-previous">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
